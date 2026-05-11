@@ -22,19 +22,11 @@ Bu projede QGIS kullanılarak Bursa ve Ankara illeri üzerinde DEM, eğim analiz
 
 Bursa ve Ankara çalışma alanı olarak seçildi ve idari sınırlar filtrelendi.
 
-<p align="center">
-  <img src="images/cbs-1.jpeg" width="800"/>
-</p>
-
 ---
 
 ## 2. DEM Merge
 
 SRTM DEM verileri birleştirildi ve çalışma alanına göre kırpıldı.
-
-<p align="center">
-  <img src="images/cbs-2.jpeg" width="800"/>
-</p>
 
 ---
 
@@ -42,19 +34,12 @@ SRTM DEM verileri birleştirildi ve çalışma alanına göre kırpıldı.
 
 DEM verilerinden eğim haritaları üretildi.
 
-<p align="center">
-  <img src="images/cbs-3.jpeg" width="800"/>
-</p>
-
 ---
 
 ## 4. Land Use Visualization
 
 OpenStreetMap verileri kullanılarak sanayi, tarım ve su katmanları oluşturuldu.
 
-<p align="center">
-  <img src="images/cbs-4.jpeg" width="800"/>
-</p>
 
 ---
 
@@ -62,9 +47,6 @@ OpenStreetMap verileri kullanılarak sanayi, tarım ve su katmanları oluşturul
 
 Su kaynakları etrafında 300m, 1000m ve 2000m koruma zonları oluşturuldu.
 
-<p align="center">
-  <img src="images/cbs-5.jpeg" width="800"/>
-</p>
 
 ---
 
