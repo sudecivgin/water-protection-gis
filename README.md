@@ -1,7 +1,7 @@
 # Water Protection GIS 🌍
 
-CBS tabanlı su kaynakları koruma zonları ve kirlilik riski haritalama projesi.  
-Bu projede QGIS kullanılarak Bursa ve Ankara illeri üzerinde DEM, eğim analizi, tampon zon (buffer) analizi ve risk skorlaması gerçekleştirilmiştir.
+GIS-based water resource protection zone and pollution risk mapping project.  
+In this project, DEM processing, slope analysis, buffer zone analysis, and risk classification were performed for Bursa and Ankara using QGIS.
 
 ---
 
@@ -20,59 +20,59 @@ Bu projede QGIS kullanılarak Bursa ve Ankara illeri üzerinde DEM, eğim analiz
 
 ## 1. Study Area Selection 📍
 
-Bursa ve Ankara çalışma alanı olarak seçildi ve idari sınırlar filtrelendi.
+Bursa and Ankara were selected as the study areas and administrative boundaries were filtered.
 
 <p align="center">
-  <img src="docs/images/cbs-1.jpeg" width="600"/>
+  <img src="docs/images/cbs-1.jpeg" width="650"/>
 </p>
 
 ---
 
 ## 2. DEM Merge ⛰
 
-SRTM DEM verileri birleştirildi ve çalışma alanına göre kırpıldı.
+SRTM DEM datasets were merged and clipped according to the study area boundaries.
 
 <p align="center">
-  <img src="docs/images/cbs-2.jpeg" width="600"/>
+  <img src="docs/images/cbs-2.jpeg" width="650"/>
 </p>
 
 ---
 
 ## 3. Slope Analysis 📈
 
-DEM verilerinden eğim haritaları üretildi.
+Slope maps were generated from DEM datasets.
 
 <p align="center">
-  <img src="docs/images/cbs-3.jpeg" width="600"/>
+  <img src="docs/images/cbs-3.jpeg" width="650"/>
 </p>
 
 ---
 
 ## 4. Land Use Visualization 🌱
 
-OpenStreetMap verileri kullanılarak sanayi, tarım ve su katmanları oluşturuldu.
+Industrial, agricultural, and water layers were created using OpenStreetMap data.
 
 <p align="center">
-  <img src="docs/images/cbs-4.jpeg" width="600"/>
+  <img src="docs/images/cbs-4.jpeg" width="650"/>
 </p>
 
 ---
 
 ## 5. Buffer Zone Analysis 🟠
 
-Su kaynakları etrafında 300m, 1000m ve 2000m koruma zonları oluşturuldu.
+Protection buffer zones of 300m, 1000m, and 2000m were generated around water resources.
 
 <p align="center">
-  <img src="docs/images/cbs-5.jpeg" width="600"/>
+  <img src="docs/images/cbs-5.jpeg" width="650"/>
 </p>
 
 ---
 
 ## Findings 🚨
 
-- Bursa Organize Sanayi Bölgesi (BOSB) çevresinde yüksek riskli alanlar tespit edildi.
-- İznik Gölü çevresinde koruma zonu ihlalleri belirlendi.
-- Ankara’da risk alanları daha dağınık bir dağılım gösterdi.
+- High-risk areas were identified around Bursa Organized Industrial Zone (BOSB).
+- Protection zone violations were detected around Lake Iznik.
+- Risk areas in Ankara showed a more scattered distribution.
 
 ---
 
