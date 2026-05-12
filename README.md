@@ -5,7 +5,7 @@ Bu projede QGIS kullanılarak Bursa ve Ankara illeri üzerinde DEM, eğim analiz
 
 ---
 
-## Technologies
+## Technologies 🛠
 
 - QGIS
 - OpenStreetMap (QuickOSM)
@@ -16,41 +16,59 @@ Bu projede QGIS kullanılarak Bursa ve Ankara illeri üzerinde DEM, eğim analiz
 
 ---
 
-# Workflow
+# Workflow ⚙️
 
-## 1. Study Area Selection
+## 1. Study Area Selection 📍
 
 Bursa ve Ankara çalışma alanı olarak seçildi ve idari sınırlar filtrelendi.
 
+<p align="center">
+  <img src="docs/images/cbs-1.jpeg" width="800"/>
+</p>
+
 ---
 
-## 2. DEM Merge
+## 2. DEM Merge ⛰
 
 SRTM DEM verileri birleştirildi ve çalışma alanına göre kırpıldı.
 
+<p align="center">
+  <img src="docs/images/cbs-2.jpeg" width="800"/>
+</p>
+
 ---
 
-## 3. Slope Analysis
+## 3. Slope Analysis 📈
 
 DEM verilerinden eğim haritaları üretildi.
 
+<p align="center">
+  <img src="docs/images/cbs-3.jpeg" width="800"/>
+</p>
+
 ---
 
-## 4. Land Use Visualization
+## 4. Land Use Visualization 🌱
 
 OpenStreetMap verileri kullanılarak sanayi, tarım ve su katmanları oluşturuldu.
 
+<p align="center">
+  <img src="docs/images/cbs-4.jpeg" width="800"/>
+</p>
 
 ---
 
-## 5. Buffer Zone Analysis
+## 5. Buffer Zone Analysis 🟠
 
 Su kaynakları etrafında 300m, 1000m ve 2000m koruma zonları oluşturuldu.
 
+<p align="center">
+  <img src="docs/images/cbs-5.jpeg" width="800"/>
+</p>
 
 ---
 
-## Findings
+## Findings 🚨
 
 - Bursa Organize Sanayi Bölgesi (BOSB) çevresinde yüksek riskli alanlar tespit edildi.
 - İznik Gölü çevresinde koruma zonu ihlalleri belirlendi.
@@ -58,7 +76,7 @@ Su kaynakları etrafında 300m, 1000m ve 2000m koruma zonları oluşturuldu.
 
 ---
 
-## Data Sources
+## Data Sources 📂
 
 - GADM
 - USGS EarthExplorer
